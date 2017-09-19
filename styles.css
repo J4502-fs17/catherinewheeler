@@ -7,6 +7,10 @@ h1, h4{
   color:#0FB2A8
 }
 
+h4{
+  font-family:"Libre Baskerville", Georgia, "Times New Roman", serif;
+  color:#FFA162;
+}
 
 p, ul{
   font-family:"Nunito", Helvetica, Arial, sans-serif;
@@ -15,7 +19,6 @@ p, ul{
 }
 p{
   font-style:italic;
-  font-weight:800;
 }
 
 ul{
@@ -30,6 +33,10 @@ body{
   background-color:#B25C21;
 }
 
-ul{
+#list a:link, a:visited{
   text-decoration:none;
+  color:#0FB2A8;
+  font-weight:800;
+
+
 }
