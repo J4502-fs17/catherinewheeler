@@ -1,0 +1,29 @@
+p{
+  font-family:Helvetica, Arial, sans-serif;
+  color:#ffffff;
+}
+body{
+  background-color: red;
+}
+#list{
+  font-style:italic;
+  font-style:Georgia,"Times New Roman", serif;
+  font-weight:bold;
+  align:left
+  margin:0;
+}
+h1{
+  font-family:Helvetica;
+  align:center;
+}
+img{
+  border-style:none;
+}
+
+#list a:link, a:visited{
+  font-family:Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-weight:bold;
+}
+#list a:hover, #list a:active{
+background-color:#7a991a;
