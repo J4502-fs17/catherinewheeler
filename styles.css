@@ -9,8 +9,16 @@ h1, h4{
 
 p, ul{
   font-family:"Roboto Slab", Georgia, "Times New Roman", serif;
+  color:blue;
+  font-weight:bold;
+  text-align:center;
 }
+
 
 ul{
   list-style-type:none;
+}
+
+img{
+  border-style:none;
 }
