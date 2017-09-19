@@ -10,7 +10,7 @@ h1, h4{
 
 p, ul{
   font-family:"Nunito", Helvetica, Arial, sans-serif;
-  color:#FFA162
+  color:#FFA162;
   font-weight:bold;
   text-align:center;
 }
@@ -25,5 +25,5 @@ img{
 }
 
 body{
-  background-color:yellow;
+  background-color:#B25C21;
 }
