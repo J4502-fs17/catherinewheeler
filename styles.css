@@ -4,12 +4,12 @@ body{
 }
 
 h1, h4{
-  font-family:"Raleway", Helvetica, Arial, sans-serif;
+  font-family:"Libre Baskerville", Georgia, "Times New Roman", serif;
   color:green;
 }
 
 p, ul{
-  font-family:"Roboto Slab", Georgia, "Times New Roman", serif;
+  font-family:"Nunito", Helvetica, Arial, sans-serif;
   color:blue;
   font-weight:bold;
   text-align:center;
