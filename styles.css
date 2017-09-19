@@ -14,7 +14,9 @@ p, ul{
   font-weight:bold;
   text-align:center;
 }
-
+p{
+  font-style:italic;
+}
 
 ul{
   list-style-type:none;
