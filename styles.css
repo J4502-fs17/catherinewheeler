@@ -8,14 +8,12 @@ h1, h4{
 }
 
 h4{
-  font-family:"Libre Baskerville", Georgia, "Times New Roman", serif;
   color:#FFA162;
 }
 
 p, ul{
   font-family:"Nunito", Helvetica, Arial, sans-serif;
   color:#FFA162;
-  text-align:center;
 }
 p{
   font-style:italic;
@@ -38,6 +36,8 @@ body{
   text-decoration:none;
   color:#0FB2A8;
   font-weight:800;
+}
 
-
+#list a:hover{
+  color:#97FFFB;
 }
