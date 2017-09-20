@@ -41,3 +41,8 @@ body{
 #list a:hover{
   color:#97FFFB;
 }
+
+#footer{
+  color:#FFA162;
+  margin:0 auto;
+}
