@@ -47,5 +47,13 @@ body{
   color:#FFA162;
   margin:0 auto;
   font-size:0.8em
+}
 
+.footer{
+  position:absolute;
+  right:0;
+  bottom:0;
+  left:0;
+  padding:0;
+  text-align:left;
 }
