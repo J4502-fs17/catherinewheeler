@@ -51,6 +51,9 @@ body{
 #list{
   display:flex;
   flex-direction:column;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-content: center;
 }
 
 @media (min-width:600px){
@@ -60,12 +63,12 @@ body{
   }
 }
 
-@media (min-width:800px){
-  #list{
-    margin: auto;
+@media (min-width:600px){
+  .text{
+    justify-content: left;
+  
   }
 }
-
 
 .footer{
   position:absolute;
