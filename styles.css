@@ -60,7 +60,12 @@ body{
   display:block;
 }
 
-@media (min-width:600px){
+/*.text{
+  display:flex;
+  do i need to change something here?
+}*/
+
+@media screen and (min-width:600px){
   #list{
     flex-direction:row;
     justify-content:center;
@@ -68,7 +73,36 @@ body{
   .image{
     float:left;
   }
+
 }
+
+/*@media screen and (min-width:800px){
+  #list{
+
+  }
+}
+
+@media screen and (min-width:1000px){
+  .text{
+    display:grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-gap:20px;
+    grid-template-columns:
+    "a b b"
+    ". b b"
+
+  }
+
+  }
+  .image{
+    grid-area:a;
+  }
+  .text{
+    grid-area:b;
+  }
+}
+
+*/
 
 .footer{
   position:absolute;
