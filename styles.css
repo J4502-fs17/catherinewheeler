@@ -90,9 +90,7 @@ body{
       width: 100%;
       margin-top:0.5em;
   }
-  .text{
-    width:25%;
-  }
+
 
 }
 
@@ -100,12 +98,12 @@ body{
   .image{
     float:left;
   }
-  /*.text {
-    width:25%;
-    max-width: 200px
-  }*/
+  .text{
+    justify-content: center;
+  }
   #text2{
     display:block;
+    width:90%;
 
   }
 }
@@ -128,6 +126,9 @@ body{
   }
   #text2{
     grid-area:c;
+  }
+  .image{
+    width:800px;
   }
 
   }
