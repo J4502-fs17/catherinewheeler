@@ -58,7 +58,6 @@ body{
 
 .image{
   display:block;
-  float:center;
   border-style: none;
 }
 
@@ -93,7 +92,6 @@ body{
       margin-top:0.5em
   }
   .text{
-    justify-content: left;
     width:25%;
   }
 
