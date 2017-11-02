@@ -128,7 +128,7 @@ body{
     grid-area:c;
   }
   .image{
-    width:750px;
+    min-width:800px;
   }
 
   }
