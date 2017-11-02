@@ -62,6 +62,7 @@ body{
   border-style: none;
 }
 
+
 #text2{
   display:none;
 }
@@ -115,10 +116,10 @@ body{
 @media screen and (min-width:1000px){
   #container{
     display:grid;
-    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-template-columns: 200px 1fr 1fr;
     grid-gap:20px;
     grid-template-areas:
-    "a . b"
+    "a b b"
     ". c c"
     ". c c"
     }
