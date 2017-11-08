@@ -32,6 +32,30 @@ body{
   background-color:#B25C21;
 }
 
+header{
+  display:flex;
+  flex-flow:row;
+  margin: 0;
+  padding:0 10px;
+}
+
+.menu-trigger{
+  order:1;
+  font-size:1.75em;
+  width:2em;
+  color:#FFA162;
+  padding:0;
+  text-decoration:none;
+}
+
+header h1{
+  order:2;
+}
+
+#list {
+  display: none;
+}
+
 #list a:link, a:visited{
   text-decoration:none;
   color:#0FB2A8;
@@ -44,17 +68,17 @@ body{
 
 #list li{
   display:block;
-
   padding: 14px 16px;
 }
 
-#list{
+#list ul{
   display:flex;
   flex-direction:column;
   flex-wrap: wrap;
   justify-content:center;
   align-content: center;
 }
+
 
 .image{
   display:block;
@@ -65,6 +89,8 @@ body{
 #text2{
   display:none;
 }
+
+
 
 .footer{
   position:absolute;
@@ -105,6 +131,26 @@ body{
     display:block;
     width:90%;
 
+  }
+
+  #list {
+    display:flex;
+  }
+
+  #list ul li{
+    border-top:none;
+  }
+
+.menu-trigger{
+  display:none;
+}
+
+  header h1{
+    order: 1;
+  }
+
+  #list{
+    order:2;
   }
 }
 
