@@ -1,5 +1,7 @@
 body{
   text-align:center;
+  padding-left: 5%;
+  padding-right:5%;
 }
 
 h1, h4{
@@ -39,14 +41,6 @@ header{
   padding:0 10px;
 }
 
-.menu-trigger{
-  order:1;
-  font-size:1.75em;
-  width:2em;
-  color:#FFA162;
-  padding:0;
-  text-decoration:none;
-}
 
 header h1{
   order:2;
@@ -89,6 +83,22 @@ header h1{
 #text2{
   display:none;
 }
+
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 
 
 
@@ -143,6 +153,15 @@ header h1{
 
 .menu-trigger{
   display:none;
+}
+
+.menu-trigger{
+  order:1;
+  font-size:1.75em;
+  width:2em;
+  color:#FFA162;
+  padding:0;
+  text-decoration:none;
 }
 
   header h1{
